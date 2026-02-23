@@ -4,7 +4,7 @@ import type { SiteSettings } from "@/lib/types/app";
 
 export default function MissionSection({ settings }: { settings: SiteSettings }) {
   const heading  = settings.home_cta_heading      || "A Foundation Built on Trust";
-  const body     = settings.home_cta_body         || "For over two decades, Zakat Foundation of America has channelled your generosity to communities in crisis — from emergency relief to long-term development. Every dollar is tracked. Every programme is evaluated. We believe accountability is an act of faith.";
+  const body     = settings.home_cta_body         || "For over two decades, Hearts Initiative has channelled your generosity to communities in crisis — from emergency relief to long-term development. Every dollar is tracked. Every programme is evaluated. We believe accountability is an act of faith.";
   const image    = settings.home_cta_image;
   const btnLabel = settings.home_cta_button_label || "Donate Now";
   const btnHref  = settings.home_cta_button_href  || "/donate";

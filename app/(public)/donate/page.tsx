@@ -20,7 +20,7 @@ export default async function DonatePage() {
 
   const presetAmounts: number[] = settings.donate_preset_amounts
     ? JSON.parse(settings.donate_preset_amounts)
-    : [10, 25, 50, 100, 250, 500];
+    : [250, 500, 1000];
 
   return (
     <>

@@ -22,7 +22,7 @@ export default function NewsletterCTA() {
       });
       if (res.ok) {
         setStatus("success");
-        setMessage("You're subscribed. JazakAllah Khair.");
+        setMessage("You're subscribed. Welcome onboard!");
         setEmail("");
       } else {
         const data = await res.json();

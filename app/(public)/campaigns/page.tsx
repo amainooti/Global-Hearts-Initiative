@@ -4,7 +4,7 @@ import { getSiteSettings } from "@/lib/settings";
 import CampaignGrid from "@/components/public/campaigns/CampaignGrid";
 import type { Campaign } from "@/lib/types/app";
 
-export const metadata = { title: "Campaigns — Zakat Foundation of America" };
+export const metadata = { title: "Campaigns — Global hearts Initiative" };
 export const revalidate = 3600;
 
 export default async function CampaignsPage() {
