@@ -147,6 +147,7 @@ export async function sendDonationReceipt(params: DonationReceiptParams) {
               <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
                 ${row("Receipt ID", id)}
                 ${row("Date", date)}
+                ${donorName ? row("Donor", donorName) : ""}   // ← add this
                 ${row("Reference Number", txHash)}
                 ${campaignTitle ? row("Campaign", campaignTitle) : ""}
                 ${row("Payment Method", "Direct Contribution")}
