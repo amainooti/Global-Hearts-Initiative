@@ -93,7 +93,7 @@ export default async function CampaignDetailPage({ params }: { params: Promise<{
               </p>
               <DonationForm
                 campaigns={[c]}
-                presetAmounts={[250, 500, 1000]}
+                presetAmounts={[2000, 5000, 10000]}
                 defaultCampaignId={c.id}
               />
             </div>
